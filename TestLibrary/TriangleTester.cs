@@ -238,5 +238,62 @@ namespace TestLibrary
 
             }
         }
+
+        public class OTHER1
+        {
+            [Test]
+            public void ValidTriangle_Input1_2_4_OutputValidTriangle()
+            {
+
+                int firstSide = 1;
+                int secondSide = 2;
+                int thirdSide = 4;
+
+                string expected = "A triangle cannot be formed with those numbers";
+
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                Assert.AreEqual(expected, actual);
+
+            }
+        }
+
+        public class OTHER2
+        {
+            [Test]
+            public void ValidTriangle_Input5_6_20_OutputValidTriangle()
+            {
+
+                int firstSide = 5;
+                int secondSide = 6;
+                int thirdSide = 20;
+
+                string expected = "A triangle cannot be formed with those numbers";
+
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                Assert.AreEqual(expected, actual);
+
+            }
+        }
+
+        public class OTHER3
+        {
+            [Test]
+            public void ValidTriangle_Input1_10_100_OutputValidTriangle()
+            {
+
+                int firstSide = 1;
+                int secondSide = 10;
+                int thirdSide = 100;
+
+                string expected = "A triangle cannot be formed with those numbers";
+
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                Assert.AreEqual(expected, actual);
+
+            }
+        }
     }
 }
