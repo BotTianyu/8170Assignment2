@@ -92,14 +92,14 @@ namespace TestLibrary
         public class SCALENE1
         {
             [Test]
-            public void ValidTriangle_Input5_5_5_OutputValidTriangle()
+            public void ValidTriangle_Input3_4_5_OutputValidTriangle()
             {
 
-                int firstSide = 5;
-                int secondSide = 5;
+                int firstSide = 3;
+                int secondSide = 4;
                 int thirdSide = 5;
 
-                string expected = "The triangle is valid and is an EQUILATERAL";
+                string expected = "The triangle is valid and is a SCALENE";
 
                 string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
@@ -111,14 +111,14 @@ namespace TestLibrary
         public class SCALENE2
         {
             [Test]
-            public void ValidTriangle_Input5_5_5_OutputValidTriangle()
+            public void ValidTriangle_Input2_3_4_OutputValidTriangle()
             {
 
-                int firstSide = 5;
-                int secondSide = 5;
-                int thirdSide = 5;
+                int firstSide = 2;
+                int secondSide = 3;
+                int thirdSide = 4;
 
-                string expected = "The triangle is valid and is an EQUILATERAL";
+                string expected = "The triangle is valid and is a SCALENE";
 
                 string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
@@ -129,14 +129,14 @@ namespace TestLibrary
         public class SCALENE3
         {
             [Test]
-            public void ValidTriangle_Input5_5_5_OutputValidTriangle()
+            public void ValidTriangle_Input10_11_12_OutputValidTriangle()
             {
 
-                int firstSide = 5;
-                int secondSide = 5;
-                int thirdSide = 5;
+                int firstSide = 10;
+                int secondSide = 11;
+                int thirdSide = 12;
 
-                string expected = "The triangle is valid and is an EQUILATERAL";
+                string expected = "The triangle is valid and is a SCALENE";
 
                 string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
@@ -147,14 +147,14 @@ namespace TestLibrary
         public class SCALENE4
         {
             [Test]
-            public void ValidTriangle_Input5_5_5_OutputValidTriangle()
+            public void ValidTriangle_Input5_27_28_OutputValidTriangle()
             {
 
                 int firstSide = 5;
-                int secondSide = 5;
-                int thirdSide = 5;
+                int secondSide = 27;
+                int thirdSide = 28;
 
-                string expected = "The triangle is valid and is an EQUILATERAL";
+                string expected = "The triangle is valid and is a SCALENE";
 
                 string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
@@ -166,14 +166,71 @@ namespace TestLibrary
         public class SCALENE5
         {
             [Test]
-            public void ValidTriangle_Input5_5_5_OutputValidTriangle()
+            public void ValidTriangle_Input100_101_102_OutputValidTriangle()
             {
 
-                int firstSide = 5;
-                int secondSide = 5;
-                int thirdSide = 5;
+                int firstSide = 100;
+                int secondSide = 101;
+                int thirdSide = 102;
 
-                string expected = "The triangle is valid and is an EQUILATERAL";
+                string expected = "The triangle is valid and is a SCALENE";
+
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                Assert.AreEqual(expected, actual);
+
+            }
+        }
+
+        public class ZERO1
+        {
+            [Test]
+            public void ValidTriangle_Input0_101_102_OutputValidTriangle()
+            {
+
+                int firstSide = 0;
+                int secondSide = 101;
+                int thirdSide = 102;
+
+                string expected = "At least one side of your triangle has a zero length and is thus invalid";
+
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                Assert.AreEqual(expected, actual);
+
+            }
+        }
+
+        public class ZERO2
+        {
+            [Test]
+            public void ValidTriangle_Input0_0_102_OutputValidTriangle()
+            {
+
+                int firstSide = 0;
+                int secondSide = 0;
+                int thirdSide = 102;
+
+                string expected = "At least one side of your triangle has a zero length and is thus invalid";
+
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                Assert.AreEqual(expected, actual);
+
+            }
+        }
+
+        public class ZERO3
+        {
+            [Test]
+            public void ValidTriangle_Input0_0_0_OutputValidTriangle()
+            {
+
+                int firstSide = 0;
+                int secondSide = 0;
+                int thirdSide = 0;
+
+                string expected = "At least one side of your triangle has a zero length and is thus invalid";
 
                 string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
