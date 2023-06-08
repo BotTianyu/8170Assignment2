@@ -1,0 +1,17 @@
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\nunit.engine.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\nunit.engine.api.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\nunit.engine.core.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\testcentric.engine.metadata.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\TestLibrary.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\TestLibrary.pdb
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\nunit.framework.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\TriangleSolver.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\TriangleSolver.pdb
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\bin\Debug\nunit.framework.xml
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\obj\Debug\TestLibrary.csproj.AssemblyReference.cache
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\obj\Debug\TestLibrary.csproj.CoreCompileInputs.cache
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\obj\Debug\TestLibrary.csproj.CopyComplete
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\obj\Debug\TestLibrary.dll
+C:\Users\TianyuDai\Documents\Conestoga\PROG8170\TriangleSolver\TriangleSolver\TestLibrary\obj\Debug\TestLibrary.pdb
